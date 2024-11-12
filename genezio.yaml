@@ -1,0 +1,17 @@
+backend:
+    functions:
+        - entry: index.py
+          handler: app
+          name: flask
+          path: .
+          type: httpServer
+    language:
+        name: python
+        packageManager: pip
+    path: .
+    scripts:
+        deploy:
+            - npm install
+name: test-flask
+region: us-east-1
+yamlVersion: 2
