@@ -2,7 +2,7 @@ backend:
     functions:
         - entry: index.py
           handler: app
-          name: flask
+          name: function-express
           path: .
           type: httpServer
     language:
