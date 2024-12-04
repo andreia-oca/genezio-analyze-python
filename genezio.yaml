@@ -9,6 +9,6 @@ backend:
         name: python
         packageManager: pip
     path: .
-name: scarlet-robust-cephalopod-2
+name: scarlet-robust-cephalopod-3
 region: us-east-1
 yamlVersion: 2
